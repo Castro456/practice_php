@@ -3,6 +3,8 @@
 // Index Array
 $data = array("Zac","Hide","Run");
 echo $data[0]; // This prints Zac
+echo '<br>';
+print_r($data);
 
 // Associative Array
 $data = array(

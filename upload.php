@@ -4,7 +4,7 @@ if (isset($_POST['upload'])) {
   $file = $_FILES['upfile'] ; //super global gets info of the upload file
   // print_r($file);
 
-  $filename = $file['name']; //can also write as $_FILES['file']['name']
+  $filename = $file['name']; //can also write as $_FILES['upfile']['name']
   // print_r($filename);
   $filetype = $file['type'];
   $fileTmpname = $file['tmp_name'];

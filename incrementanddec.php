@@ -3,6 +3,9 @@ $x = 10;
 echo $x++;
 echo $x;
 echo $x;
+echo '<br>';
+date_default_timezone_set('Asia/Kolkata');
+echo date('r');
 ?>
 <!DOCTYPE html>
 <html lang="en">
